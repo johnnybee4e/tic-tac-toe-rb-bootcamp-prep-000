@@ -98,7 +98,6 @@ def play(board)
 
   if winner(board) == "X"
     puts "Congratulations X!"
-  end
 
   elsif draw?(board)
     puts "Cat's game!"
