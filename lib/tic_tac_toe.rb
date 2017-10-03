@@ -90,3 +90,7 @@ def winner(board)
     board[win_combination.first]
   end
 end
+
+def play(board)
+
+end
