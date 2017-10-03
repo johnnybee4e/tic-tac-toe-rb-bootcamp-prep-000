@@ -97,10 +97,8 @@ def play(board)
   end
 
   if won?(board)
-    if turn_count(board) == "X"
+    if win_combo[0] == "X"
       puts "Congratulations X!"
-    elsif turn_count(board) == "O"
-      puts "Congratulations O!"
     end
 
   elsif draw?(board)
