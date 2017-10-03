@@ -98,7 +98,11 @@ def play(board)
 
   if won?(board)
     if turn_count(board) == "X"
-    puts "Congratulations X!"
+      puts "Congratulations X!"
+    elsif turn_count(board) == "O"
+      puts "Congratulations O!"
+    end
+
   elsif draw?(board)
     puts "Cat's game!"
   end
